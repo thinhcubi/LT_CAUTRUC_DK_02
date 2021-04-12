@@ -1,0 +1,6 @@
+let P=+prompt("Nhap so tien goc")
+let r=+prompt("Nhap so lan tien lai suat danh nghia hang nam")
+let t=+prompt("Nhap so nam tien duoc muon")
+let n=+prompt("Nhap so tien lai duoc nhap goc moi nam")
+A=P*(1+(r/n))**(n*t)
+alert("Gia tri tuong lai la" + A)
